@@ -2,8 +2,8 @@
 sudo yum install tcpdump
 sudo yum install tmux
 tmux
-ctl+b %
-ctl+b "
+ctl+b % split screen for vertical
+ctl+b " split screen for horizontal
 tmux a 
 tmux ls
 ctl+b q
